@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+.venv/
+data/raw/
+.python-version
