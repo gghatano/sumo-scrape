@@ -1,0 +1,112 @@
+name: Monthly Sumo Data Update
+
+on:
+  workflow_dispatch:
+    inputs:
+      basho:
+        description: "Target basho in YYYYMM (e.g., 202601). If empty, computed from current date."
+        required: false
+        default: ""
+      force:
+        description: "Force rebuild for the target basho (replace rows)."
+        required: false
+        default: "false"
+  schedule:
+    # 27th 16:30 UTC = 28th 01:30 JST
+    - cron: "30 16 27 * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sumo-data-monthly
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install uv
+        run: |
+          python -m pip install --upgrade pip
+          pip install uv
+
+      - name: Install project dependencies
+        run: |
+          uv sync --frozen || uv sync
+
+      - name: Compute target basho (YYYYMM)
+        id: basho
+        run: |
+          set -euo pipefail
+
+          INPUT_BASHO="${{ inputs.basho }}"
+          if [ -n "${INPUT_BASHO}" ]; then
+            echo "basho=${INPUT_BASHO}" >> "$GITHUB_OUTPUT"
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          YYYY=$(date -u +%Y)
+          MM=$(date -u +%m)
+          BASHO="${YYYY}${MM}"
+
+          case "${MM}" in
+            01|03|05|07|09|11)
+              echo "basho=${BASHO}" >> "$GITHUB_OUTPUT"
+              echo "should_run=true" >> "$GITHUB_OUTPUT"
+              ;;
+            *)
+              echo "basho=${BASHO}" >> "$GITHUB_OUTPUT"
+              echo "should_run=false" >> "$GITHUB_OUTPUT"
+              ;;
+          esac
+
+      - name: No-op (not a honbasho month)
+        if: steps.basho.outputs.should_run != 'true'
+        run: |
+          echo "Not a honbasho month. Exiting without changes."
+
+      - name: Run pipeline
+        if: steps.basho.outputs.should_run == 'true'
+        env:
+          BASHO: ${{ steps.basho.outputs.basho }}
+          FORCE: ${{ inputs.force }}
+        run: |
+          set -euo pipefail
+          echo "Target basho: ${BASHO}"
+          if [ "${FORCE}" = "true" ]; then
+            uv run python -m sumodata --basho "${BASHO}" --raw-cache off --force --log-level INFO
+          else
+            uv run python -m sumodata --basho "${BASHO}" --raw-cache off --log-level INFO
+          fi
+
+      - name: Commit & push if changed
+        if: steps.basho.outputs.should_run == 'true'
+        run: |
+          set -euo pipefail
+
+          git config user.name "sumo-data-bot"
+          git config user.email "sumo-data-bot@users.noreply.github.com"
+
+          git add data/fact/*.csv data/dim/*.csv || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update sumo data for basho ${{ steps.basho.outputs.basho }}"
+          git pull --rebase
+          git push
