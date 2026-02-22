@@ -54,6 +54,11 @@ def parse_results_page(
                     source_url, fetched_at,
                 )
                 records.append(record)
+                logger.debug(
+                    "  bout %s #%d: %d vs %d -> %s by %s [%s]",
+                    division, bout_no, record.east_rid, record.west_rid,
+                    record.winner_side, record.kimarite, record.result_type,
+                )
             except Exception as e:
                 logger.warning(
                     "Failed to parse bout row %d in %s: %s",
@@ -71,9 +76,19 @@ def parse_results_page(
                     fetched_at=fetched_at,
                 ))
 
+    # Division-level and exception summary
+    div_counts: dict[str, int] = {}
+    exception_count = 0
+    for r in records:
+        div_counts[r.division] = div_counts.get(r.division, 0) + 1
+        if r.result_type in ("fusen", "kyujo", "unknown"):
+            exception_count += 1
+
     logger.info(
-        "Parsed %d bouts from day %d (%s)",
+        "Parsed %d bouts from day %d (%s): %s, exceptions=%d",
         len(records), day, event_id,
+        ", ".join(f"{d}={n}" for d, n in div_counts.items()),
+        exception_count,
     )
     return records
 
