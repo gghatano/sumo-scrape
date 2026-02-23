@@ -1,25 +1,22 @@
-# レビュー結果
+# 全体レビュー結果（2026-02-23）
 
 ## Findings
 
-1. **High** [RESOLVED] `monthly.yml`案の差分判定順が誤っており、初回更新を取りこぼす可能性
-`docs/spec.md` で `git diff --quiet` を先に実行し、`git add` が後になっていた。
-**対応**: `git add` → `git diff --cached --quiet` の順に修正済み。`task-013.md` にも注記追加済み。
+1. **Low** `is_regular` の型表現がドキュメント間で不一致  
+`docs/spec.md:116` では `is_regular : bool（T/F）`、`docs/technical-spec.md:48` では `is_regular: str  # "T" / "F"` となっている。  
+実装時の型設計（`bool` で保持してCSV出力時に `T/F` へ変換するのか、最初から `str` で持つのか）を明確に統一した方がよい。
 
-2. **Medium** [RESOLVED] 四股名抽出ルールがタスクと技術仕様で不整合
-`task-007.md` が「表示テキストから抽出」、技術仕様が `title` 属性先頭（日本語四股名）を推奨で不一致だった。
-**対応**: 「title属性の日本語四股名を使用、取得不可時のみローマ字フォールバック」に統一。task-007.md、technical-spec.md Section 7.4, 7.7 を更新済み。
+2. **Low** `winner_side` 判定根拠の表現が task と技術仕様でずれる  
+`docs/tasks/task-005.md:18` は「勝敗記号（○●等）から判定」、`docs/technical-spec.md:158` は「`img src` で判定」と記載。  
+実装指針としては `img src` 判定を正とし、task 側も同じ表現にそろえると誤解が減る。
 
-3. **Medium** [RESOLVED] `Task-005` の関数契約が `BoutRecord` 必須項目と噛み合っていない
-`parse_results_page(html, event_id, day)` だけでは `event_type/is_regular/source_url/fetched_at` 等の責務が曖昧だった。
-**対応**: 関数シグネチャを `(html, event_id, event_type, is_regular, basho, day, source_url, fetched_at)` に拡張。technical-spec.md に Section 5.10「メタ列の責務分担」を新設し、全フィールドの責務を明文化済み。
+## 参考（確認済み）
 
-## Open Questions / Assumptions
-
-1. [RESOLVED] `shikona_at_basho` → 「日本語優先・欠損時ローマ字フォールバック」で確定。
-2. [RESOLVED] `BoutRecord` メタ列 → パーサーが全フィールドを埋める。`fetched_at` は呼び出し側がHTTP取得時刻を記録し引数として渡す。
+- `monthly.yml` の差分判定順は `git add` → `git diff --cached --quiet` に修正済み（`docs/spec.md:454`, `docs/spec.md:456`）。  
+- 四股名抽出ルールは「title属性先頭の日本語、欠損時のみローマ字フォールバック」に統一済み（`docs/tasks/task-007.md:16`, `docs/technical-spec.md:358`）。  
+- `parse_results_page` の契約（`fetched_at` 含む）とメタ列責務は整備済み（`docs/tasks/task-005.md:14`, `docs/technical-spec.md:216`）。
 
 ## 補足
 
-レビュー対象は実装コードではなく `docs/` の仕様・タスク定義。
-このディレクトリはGitリポジトリではないため、差分ベースではなくドキュメント整合性レビューを実施。
+レビュー対象は `docs/` の仕様・タスク定義。  
+実装コードは未レビューのため、実行時挙動は別途テストで確認が必要。
