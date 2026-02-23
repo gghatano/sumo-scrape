@@ -18,5 +18,20 @@ def results_no_playoff_html() -> str:
 
 
 @pytest.fixture()
+def results_multi_division_html() -> str:
+    return (FIXTURES_DIR / "results_multi_division.html").read_text(encoding="utf-8")
+
+
+@pytest.fixture()
+def results_kyujo_html() -> str:
+    return (FIXTURES_DIR / "results_kyujo.html").read_text(encoding="utf-8")
+
+
+@pytest.fixture()
 def banzuke_sample_html() -> str:
     return (FIXTURES_DIR / "banzuke_sample.html").read_text(encoding="utf-8")
+
+
+@pytest.fixture()
+def banzuke_multi_division_html() -> str:
+    return (FIXTURES_DIR / "banzuke_multi_division.html").read_text(encoding="utf-8")
