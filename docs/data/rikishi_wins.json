@@ -1,0 +1,242 @@
+[
+  {
+    "rank": 1,
+    "shikona": "白鵬",
+    "wins": 1099,
+    "losses": 203,
+    "basho_count": 92,
+    "win_rate": 84.4
+  },
+  {
+    "rank": 2,
+    "shikona": "琴奨菊",
+    "wins": 721,
+    "losses": 622,
+    "basho_count": 94,
+    "win_rate": 53.7
+  },
+  {
+    "rank": 3,
+    "shikona": "稀勢の里",
+    "wins": 716,
+    "losses": 453,
+    "basho_count": 82,
+    "win_rate": 61.2
+  },
+  {
+    "rank": 4,
+    "shikona": "日馬富士",
+    "wins": 713,
+    "losses": 374,
+    "basho_count": 76,
+    "win_rate": 65.6
+  },
+  {
+    "rank": 5,
+    "shikona": "安美錦",
+    "wins": 687,
+    "losses": 736,
+    "basho_count": 104,
+    "win_rate": 48.3
+  },
+  {
+    "rank": 6,
+    "shikona": "玉鷲",
+    "wins": 658,
+    "losses": 717,
+    "basho_count": 96,
+    "win_rate": 47.9
+  },
+  {
+    "rank": 7,
+    "shikona": "旭天鵬",
+    "wins": 650,
+    "losses": 717,
+    "basho_count": 92,
+    "win_rate": 47.5
+  },
+  {
+    "rank": 8,
+    "shikona": "鶴竜",
+    "wins": 647,
+    "losses": 398,
+    "basho_count": 78,
+    "win_rate": 61.9
+  },
+  {
+    "rank": 9,
+    "shikona": "朝青龍",
+    "wins": 603,
+    "losses": 155,
+    "basho_count": 53,
+    "win_rate": 79.6
+  },
+  {
+    "rank": 10,
+    "shikona": "豪風",
+    "wins": 597,
+    "losses": 672,
+    "basho_count": 90,
+    "win_rate": 47.0
+  },
+  {
+    "rank": 11,
+    "shikona": "高安",
+    "wins": 592,
+    "losses": 459,
+    "basho_count": 78,
+    "win_rate": 56.3
+  },
+  {
+    "rank": 12,
+    "shikona": "豪栄道",
+    "wins": 590,
+    "losses": 443,
+    "basho_count": 74,
+    "win_rate": 57.1
+  },
+  {
+    "rank": 13,
+    "shikona": "栃煌山",
+    "wins": 576,
+    "losses": 564,
+    "basho_count": 79,
+    "win_rate": 50.5
+  },
+  {
+    "rank": 14,
+    "shikona": "嘉風",
+    "wins": 565,
+    "losses": 601,
+    "basho_count": 80,
+    "win_rate": 48.5
+  },
+  {
+    "rank": 15,
+    "shikona": "魁皇",
+    "wins": 564,
+    "losses": 348,
+    "basho_count": 68,
+    "win_rate": 61.8
+  },
+  {
+    "rank": 16,
+    "shikona": "雅山",
+    "wins": 560,
+    "losses": 530,
+    "basho_count": 75,
+    "win_rate": 51.4
+  },
+  {
+    "rank": 17,
+    "shikona": "栃ノ心",
+    "wins": 560,
+    "losses": 575,
+    "basho_count": 83,
+    "win_rate": 49.3
+  },
+  {
+    "rank": 18,
+    "shikona": "若の里",
+    "wins": 550,
+    "losses": 505,
+    "basho_count": 75,
+    "win_rate": 52.1
+  },
+  {
+    "rank": 19,
+    "shikona": "宝富士",
+    "wins": 543,
+    "losses": 607,
+    "basho_count": 81,
+    "win_rate": 47.2
+  },
+  {
+    "rank": 20,
+    "shikona": "隠岐の海",
+    "wins": 518,
+    "losses": 568,
+    "basho_count": 75,
+    "win_rate": 47.7
+  },
+  {
+    "rank": 21,
+    "shikona": "碧山",
+    "wins": 505,
+    "losses": 530,
+    "basho_count": 73,
+    "win_rate": 48.8
+  },
+  {
+    "rank": 22,
+    "shikona": "豊ノ島",
+    "wins": 499,
+    "losses": 527,
+    "basho_count": 73,
+    "win_rate": 48.6
+  },
+  {
+    "rank": 23,
+    "shikona": "琴光喜",
+    "wins": 498,
+    "losses": 344,
+    "basho_count": 59,
+    "win_rate": 59.1
+  },
+  {
+    "rank": 24,
+    "shikona": "妙義龍",
+    "wins": 497,
+    "losses": 540,
+    "basho_count": 73,
+    "win_rate": 47.9
+  },
+  {
+    "rank": 25,
+    "shikona": "千代大海",
+    "wins": 483,
+    "losses": 326,
+    "basho_count": 58,
+    "win_rate": 59.7
+  },
+  {
+    "rank": 26,
+    "shikona": "琴欧洲",
+    "wins": 466,
+    "losses": 323,
+    "basho_count": 57,
+    "win_rate": 59.1
+  },
+  {
+    "rank": 27,
+    "shikona": "遠藤",
+    "wins": 459,
+    "losses": 459,
+    "basho_count": 66,
+    "win_rate": 50.0
+  },
+  {
+    "rank": 28,
+    "shikona": "栃乃洋",
+    "wins": 447,
+    "losses": 521,
+    "basho_count": 68,
+    "win_rate": 46.2
+  },
+  {
+    "rank": 29,
+    "shikona": "御嶽海",
+    "wins": 436,
+    "losses": 363,
+    "basho_count": 55,
+    "win_rate": 54.6
+  },
+  {
+    "rank": 30,
+    "shikona": "時天空",
+    "wins": 434,
+    "losses": 498,
+    "basho_count": 67,
+    "win_rate": 46.6
+  }
+]

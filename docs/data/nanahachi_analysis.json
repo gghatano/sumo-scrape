@@ -1,0 +1,329 @@
+{
+  "overall": {
+    "total_bouts": 730,
+    "wins": 423,
+    "win_rate": 57.9,
+    "expected_rate": 50.0
+  },
+  "by_opponent_record": [
+    {
+      "opp_record": "8-6",
+      "bouts": 165,
+      "wins": 107,
+      "win_rate": 64.8
+    },
+    {
+      "opp_record": "7-7",
+      "bouts": 150,
+      "wins": 68,
+      "win_rate": 45.3
+    },
+    {
+      "opp_record": "6-8",
+      "bouts": 92,
+      "wins": 56,
+      "win_rate": 60.9
+    },
+    {
+      "opp_record": "9-5",
+      "bouts": 84,
+      "wins": 51,
+      "win_rate": 60.7
+    },
+    {
+      "opp_record": "5-9",
+      "bouts": 70,
+      "wins": 47,
+      "win_rate": 67.1
+    },
+    {
+      "opp_record": "10-4",
+      "bouts": 49,
+      "wins": 24,
+      "win_rate": 49.0
+    },
+    {
+      "opp_record": "4-10",
+      "bouts": 42,
+      "wins": 30,
+      "win_rate": 71.4
+    },
+    {
+      "opp_record": "3-11",
+      "bouts": 20,
+      "wins": 11,
+      "win_rate": 55.0
+    },
+    {
+      "opp_record": "11-3",
+      "bouts": 17,
+      "wins": 8,
+      "win_rate": 47.1
+    },
+    {
+      "opp_record": "12-2",
+      "bouts": 11,
+      "wins": 5,
+      "win_rate": 45.5
+    },
+    {
+      "opp_record": "1-0",
+      "bouts": 4,
+      "wins": 4,
+      "win_rate": 100.0
+    },
+    {
+      "opp_record": "13-1",
+      "bouts": 3,
+      "wins": 2,
+      "win_rate": 66.7
+    },
+    {
+      "opp_record": "2-12",
+      "bouts": 3,
+      "wins": 1,
+      "win_rate": 33.3
+    },
+    {
+      "opp_record": "7-5",
+      "bouts": 3,
+      "wins": 2,
+      "win_rate": 66.7
+    },
+    {
+      "opp_record": "1-2",
+      "bouts": 2,
+      "wins": 0,
+      "win_rate": 0.0
+    },
+    {
+      "opp_record": "1-1",
+      "bouts": 2,
+      "wins": 1,
+      "win_rate": 50.0
+    },
+    {
+      "opp_record": "0-2",
+      "bouts": 2,
+      "wins": 0,
+      "win_rate": 0.0
+    },
+    {
+      "opp_record": "0-1",
+      "bouts": 2,
+      "wins": 1,
+      "win_rate": 50.0
+    },
+    {
+      "opp_record": "2-1",
+      "bouts": 1,
+      "wins": 0,
+      "win_rate": 0.0
+    },
+    {
+      "opp_record": "3-1",
+      "bouts": 1,
+      "wins": 0,
+      "win_rate": 0.0
+    },
+    {
+      "opp_record": "0-3",
+      "bouts": 1,
+      "wins": 0,
+      "win_rate": 0.0
+    },
+    {
+      "opp_record": "4-7",
+      "bouts": 1,
+      "wins": 1,
+      "win_rate": 100.0
+    },
+    {
+      "opp_record": "1-13",
+      "bouts": 1,
+      "wins": 1,
+      "win_rate": 100.0
+    },
+    {
+      "opp_record": "8-3",
+      "bouts": 1,
+      "wins": 0,
+      "win_rate": 0.0
+    },
+    {
+      "opp_record": "2-0",
+      "bouts": 1,
+      "wins": 1,
+      "win_rate": 100.0
+    },
+    {
+      "opp_record": "3-2",
+      "bouts": 1,
+      "wins": 1,
+      "win_rate": 100.0
+    },
+    {
+      "opp_record": "2-7",
+      "bouts": 1,
+      "wins": 1,
+      "win_rate": 100.0
+    }
+  ],
+  "by_year": [
+    {
+      "year": 2000,
+      "bouts": 28,
+      "wins": 12,
+      "win_rate": 42.9
+    },
+    {
+      "year": 2001,
+      "bouts": 30,
+      "wins": 21,
+      "win_rate": 70.0
+    },
+    {
+      "year": 2002,
+      "bouts": 28,
+      "wins": 15,
+      "win_rate": 53.6
+    },
+    {
+      "year": 2003,
+      "bouts": 35,
+      "wins": 21,
+      "win_rate": 60.0
+    },
+    {
+      "year": 2004,
+      "bouts": 35,
+      "wins": 21,
+      "win_rate": 60.0
+    },
+    {
+      "year": 2005,
+      "bouts": 33,
+      "wins": 21,
+      "win_rate": 63.6
+    },
+    {
+      "year": 2006,
+      "bouts": 32,
+      "wins": 20,
+      "win_rate": 62.5
+    },
+    {
+      "year": 2007,
+      "bouts": 38,
+      "wins": 21,
+      "win_rate": 55.3
+    },
+    {
+      "year": 2008,
+      "bouts": 32,
+      "wins": 20,
+      "win_rate": 62.5
+    },
+    {
+      "year": 2009,
+      "bouts": 35,
+      "wins": 26,
+      "win_rate": 74.3
+    },
+    {
+      "year": 2010,
+      "bouts": 24,
+      "wins": 14,
+      "win_rate": 58.3
+    },
+    {
+      "year": 2011,
+      "bouts": 30,
+      "wins": 17,
+      "win_rate": 56.7
+    },
+    {
+      "year": 2012,
+      "bouts": 26,
+      "wins": 18,
+      "win_rate": 69.2
+    },
+    {
+      "year": 2013,
+      "bouts": 41,
+      "wins": 24,
+      "win_rate": 58.5
+    },
+    {
+      "year": 2014,
+      "bouts": 35,
+      "wins": 22,
+      "win_rate": 62.9
+    },
+    {
+      "year": 2015,
+      "bouts": 35,
+      "wins": 22,
+      "win_rate": 62.9
+    },
+    {
+      "year": 2016,
+      "bouts": 24,
+      "wins": 13,
+      "win_rate": 54.2
+    },
+    {
+      "year": 2017,
+      "bouts": 26,
+      "wins": 12,
+      "win_rate": 46.2
+    },
+    {
+      "year": 2018,
+      "bouts": 28,
+      "wins": 18,
+      "win_rate": 64.3
+    },
+    {
+      "year": 2019,
+      "bouts": 25,
+      "wins": 15,
+      "win_rate": 60.0
+    },
+    {
+      "year": 2020,
+      "bouts": 20,
+      "wins": 8,
+      "win_rate": 40.0
+    },
+    {
+      "year": 2021,
+      "bouts": 24,
+      "wins": 9,
+      "win_rate": 37.5
+    },
+    {
+      "year": 2022,
+      "bouts": 26,
+      "wins": 12,
+      "win_rate": 46.2
+    },
+    {
+      "year": 2023,
+      "bouts": 23,
+      "wins": 16,
+      "win_rate": 69.6
+    },
+    {
+      "year": 2024,
+      "bouts": 17,
+      "wins": 5,
+      "win_rate": 29.4
+    }
+  ],
+  "both_77": {
+    "total_bouts": 150,
+    "east_wins": 68,
+    "note": "Both 7-7: no incentive asymmetry, expect ~50%"
+  }
+}

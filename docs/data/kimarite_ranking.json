@@ -1,0 +1,206 @@
+{
+  "makuuchi": [
+    {
+      "kimarite": "yorikiri",
+      "count": 12023,
+      "pct": 27.4
+    },
+    {
+      "kimarite": "oshidashi",
+      "count": 9393,
+      "pct": 21.4
+    },
+    {
+      "kimarite": "hatakikomi",
+      "count": 3756,
+      "pct": 8.6
+    },
+    {
+      "kimarite": "tsukiotoshi",
+      "count": 2578,
+      "pct": 5.9
+    },
+    {
+      "kimarite": "uwatenage",
+      "count": 2186,
+      "pct": 5.0
+    },
+    {
+      "kimarite": "hikiotoshi",
+      "count": 2163,
+      "pct": 4.9
+    },
+    {
+      "kimarite": "yoritaoshi",
+      "count": 1484,
+      "pct": 3.4
+    },
+    {
+      "kimarite": "okuridashi",
+      "count": 1310,
+      "pct": 3.0
+    },
+    {
+      "kimarite": "oshitaoshi",
+      "count": 1256,
+      "pct": 2.9
+    },
+    {
+      "kimarite": "tsukidashi",
+      "count": 1194,
+      "pct": 2.7
+    },
+    {
+      "kimarite": "sukuinage",
+      "count": 1099,
+      "pct": 2.5
+    },
+    {
+      "kimarite": "shitatenage",
+      "count": 856,
+      "pct": 2.0
+    },
+    {
+      "kimarite": "kotenage",
+      "count": 801,
+      "pct": 1.8
+    },
+    {
+      "kimarite": "uwatedashinage",
+      "count": 680,
+      "pct": 1.6
+    },
+    {
+      "kimarite": "katasukashi",
+      "count": 477,
+      "pct": 1.1
+    },
+    {
+      "kimarite": "shitatedashinage",
+      "count": 192,
+      "pct": 0.4
+    },
+    {
+      "kimarite": "okuritaoshi",
+      "count": 186,
+      "pct": 0.4
+    },
+    {
+      "kimarite": "sotogake",
+      "count": 163,
+      "pct": 0.4
+    },
+    {
+      "kimarite": "tottari",
+      "count": 159,
+      "pct": 0.4
+    },
+    {
+      "kimarite": "tsukitaoshi",
+      "count": 157,
+      "pct": 0.4
+    }
+  ],
+  "all": [
+    {
+      "kimarite": "yorikiri",
+      "count": 94913,
+      "pct": 25.9
+    },
+    {
+      "kimarite": "oshidashi",
+      "count": 85358,
+      "pct": 23.3
+    },
+    {
+      "kimarite": "hatakikomi",
+      "count": 27301,
+      "pct": 7.4
+    },
+    {
+      "kimarite": "yoritaoshi",
+      "count": 20231,
+      "pct": 5.5
+    },
+    {
+      "kimarite": "uwatenage",
+      "count": 19954,
+      "pct": 5.4
+    },
+    {
+      "kimarite": "tsukiotoshi",
+      "count": 17511,
+      "pct": 4.8
+    },
+    {
+      "kimarite": "hikiotoshi",
+      "count": 16344,
+      "pct": 4.5
+    },
+    {
+      "kimarite": "oshitaoshi",
+      "count": 12421,
+      "pct": 3.4
+    },
+    {
+      "kimarite": "okuridashi",
+      "count": 11542,
+      "pct": 3.1
+    },
+    {
+      "kimarite": "shitatenage",
+      "count": 9657,
+      "pct": 2.6
+    },
+    {
+      "kimarite": "sukuinage",
+      "count": 8303,
+      "pct": 2.3
+    },
+    {
+      "kimarite": "tsukidashi",
+      "count": 7032,
+      "pct": 1.9
+    },
+    {
+      "kimarite": "kotenage",
+      "count": 6081,
+      "pct": 1.7
+    },
+    {
+      "kimarite": "uwatedashinage",
+      "count": 4293,
+      "pct": 1.2
+    },
+    {
+      "kimarite": "katasukashi",
+      "count": 2929,
+      "pct": 0.8
+    },
+    {
+      "kimarite": "okuritaoshi",
+      "count": 2069,
+      "pct": 0.6
+    },
+    {
+      "kimarite": "shitatedashinage",
+      "count": 1599,
+      "pct": 0.4
+    },
+    {
+      "kimarite": "kimedashi",
+      "count": 1284,
+      "pct": 0.3
+    },
+    {
+      "kimarite": "sotogake",
+      "count": 1267,
+      "pct": 0.3
+    },
+    {
+      "kimarite": "tsukitaoshi",
+      "count": 1141,
+      "pct": 0.3
+    }
+  ]
+}

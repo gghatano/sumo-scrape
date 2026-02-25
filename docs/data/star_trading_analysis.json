@@ -1,0 +1,426 @@
+{
+  "record_matchup_matrix": [
+    {
+      "wrestler_record": "7-7",
+      "opponent_record": "7-7",
+      "bouts": 300,
+      "wrestler_wins": 150,
+      "win_rate": 50.0
+    },
+    {
+      "wrestler_record": "8-6",
+      "opponent_record": "8-6",
+      "bouts": 228,
+      "wrestler_wins": 114,
+      "win_rate": 50.0
+    },
+    {
+      "wrestler_record": "6-8",
+      "opponent_record": "6-8",
+      "bouts": 172,
+      "wrestler_wins": 86,
+      "win_rate": 50.0
+    },
+    {
+      "wrestler_record": "7-7",
+      "opponent_record": "8-6",
+      "bouts": 165,
+      "wrestler_wins": 107,
+      "win_rate": 64.8
+    },
+    {
+      "wrestler_record": "8-6",
+      "opponent_record": "7-7",
+      "bouts": 165,
+      "wrestler_wins": 58,
+      "win_rate": 35.2
+    },
+    {
+      "wrestler_record": "8-6",
+      "opponent_record": "9-5",
+      "bouts": 156,
+      "wrestler_wins": 62,
+      "win_rate": 39.7
+    },
+    {
+      "wrestler_record": "9-5",
+      "opponent_record": "8-6",
+      "bouts": 156,
+      "wrestler_wins": 94,
+      "win_rate": 60.3
+    },
+    {
+      "wrestler_record": "9-5",
+      "opponent_record": "9-5",
+      "bouts": 130,
+      "wrestler_wins": 65,
+      "win_rate": 50.0
+    },
+    {
+      "wrestler_record": "5-9",
+      "opponent_record": "5-9",
+      "bouts": 128,
+      "wrestler_wins": 64,
+      "win_rate": 50.0
+    },
+    {
+      "wrestler_record": "6-8",
+      "opponent_record": "5-9",
+      "bouts": 126,
+      "wrestler_wins": 64,
+      "win_rate": 50.8
+    },
+    {
+      "wrestler_record": "5-9",
+      "opponent_record": "6-8",
+      "bouts": 126,
+      "wrestler_wins": 62,
+      "win_rate": 49.2
+    },
+    {
+      "wrestler_record": "6-8",
+      "opponent_record": "8-6",
+      "bouts": 112,
+      "wrestler_wins": 53,
+      "win_rate": 47.3
+    },
+    {
+      "wrestler_record": "8-6",
+      "opponent_record": "6-8",
+      "bouts": 112,
+      "wrestler_wins": 59,
+      "win_rate": 52.7
+    },
+    {
+      "wrestler_record": "7-7",
+      "opponent_record": "6-8",
+      "bouts": 92,
+      "wrestler_wins": 56,
+      "win_rate": 60.9
+    },
+    {
+      "wrestler_record": "6-8",
+      "opponent_record": "7-7",
+      "bouts": 92,
+      "wrestler_wins": 36,
+      "win_rate": 39.1
+    },
+    {
+      "wrestler_record": "5-9",
+      "opponent_record": "4-10",
+      "bouts": 92,
+      "wrestler_wins": 54,
+      "win_rate": 58.7
+    },
+    {
+      "wrestler_record": "4-10",
+      "opponent_record": "5-9",
+      "bouts": 92,
+      "wrestler_wins": 38,
+      "win_rate": 41.3
+    },
+    {
+      "wrestler_record": "10-4",
+      "opponent_record": "8-6",
+      "bouts": 87,
+      "wrestler_wins": 44,
+      "win_rate": 50.6
+    },
+    {
+      "wrestler_record": "8-6",
+      "opponent_record": "10-4",
+      "bouts": 87,
+      "wrestler_wins": 43,
+      "win_rate": 49.4
+    },
+    {
+      "wrestler_record": "7-7",
+      "opponent_record": "9-5",
+      "bouts": 84,
+      "wrestler_wins": 51,
+      "win_rate": 60.7
+    },
+    {
+      "wrestler_record": "9-5",
+      "opponent_record": "7-7",
+      "bouts": 84,
+      "wrestler_wins": 33,
+      "win_rate": 39.3
+    },
+    {
+      "wrestler_record": "6-8",
+      "opponent_record": "4-10",
+      "bouts": 83,
+      "wrestler_wins": 46,
+      "win_rate": 55.4
+    },
+    {
+      "wrestler_record": "4-10",
+      "opponent_record": "6-8",
+      "bouts": 83,
+      "wrestler_wins": 37,
+      "win_rate": 44.6
+    },
+    {
+      "wrestler_record": "9-5",
+      "opponent_record": "10-4",
+      "bouts": 77,
+      "wrestler_wins": 38,
+      "win_rate": 49.4
+    },
+    {
+      "wrestler_record": "10-4",
+      "opponent_record": "9-5",
+      "bouts": 77,
+      "wrestler_wins": 39,
+      "win_rate": 50.6
+    },
+    {
+      "wrestler_record": "7-7",
+      "opponent_record": "5-9",
+      "bouts": 70,
+      "wrestler_wins": 47,
+      "win_rate": 67.1
+    },
+    {
+      "wrestler_record": "5-9",
+      "opponent_record": "7-7",
+      "bouts": 70,
+      "wrestler_wins": 23,
+      "win_rate": 32.9
+    },
+    {
+      "wrestler_record": "4-10",
+      "opponent_record": "4-10",
+      "bouts": 68,
+      "wrestler_wins": 34,
+      "win_rate": 50.0
+    },
+    {
+      "wrestler_record": "8-6",
+      "opponent_record": "5-9",
+      "bouts": 65,
+      "wrestler_wins": 37,
+      "win_rate": 56.9
+    },
+    {
+      "wrestler_record": "5-9",
+      "opponent_record": "8-6",
+      "bouts": 65,
+      "wrestler_wins": 28,
+      "win_rate": 43.1
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2000,
+      "nanahachi_vs_kachikoshi_bouts": 13,
+      "nanahachi_vs_kachikoshi_rate": 53.8,
+      "baseline_bouts": 1069,
+      "baseline_rate": 47.5
+    },
+    {
+      "year": 2001,
+      "nanahachi_vs_kachikoshi_bouts": 13,
+      "nanahachi_vs_kachikoshi_rate": 76.9,
+      "baseline_bouts": 1101,
+      "baseline_rate": 46.0
+    },
+    {
+      "year": 2002,
+      "nanahachi_vs_kachikoshi_bouts": 13,
+      "nanahachi_vs_kachikoshi_rate": 69.2,
+      "baseline_bouts": 1119,
+      "baseline_rate": 45.1
+    },
+    {
+      "year": 2003,
+      "nanahachi_vs_kachikoshi_bouts": 15,
+      "nanahachi_vs_kachikoshi_rate": 53.3,
+      "baseline_bouts": 1151,
+      "baseline_rate": 44.4
+    },
+    {
+      "year": 2004,
+      "nanahachi_vs_kachikoshi_bouts": 14,
+      "nanahachi_vs_kachikoshi_rate": 57.1,
+      "baseline_bouts": 1331,
+      "baseline_rate": 46.3
+    },
+    {
+      "year": 2005,
+      "nanahachi_vs_kachikoshi_bouts": 12,
+      "nanahachi_vs_kachikoshi_rate": 58.3,
+      "baseline_bouts": 1321,
+      "baseline_rate": 42.4
+    },
+    {
+      "year": 2006,
+      "nanahachi_vs_kachikoshi_bouts": 17,
+      "nanahachi_vs_kachikoshi_rate": 70.6,
+      "baseline_bouts": 1261,
+      "baseline_rate": 42.0
+    },
+    {
+      "year": 2007,
+      "nanahachi_vs_kachikoshi_bouts": 19,
+      "nanahachi_vs_kachikoshi_rate": 47.4,
+      "baseline_bouts": 1255,
+      "baseline_rate": 46.5
+    },
+    {
+      "year": 2008,
+      "nanahachi_vs_kachikoshi_bouts": 14,
+      "nanahachi_vs_kachikoshi_rate": 78.6,
+      "baseline_bouts": 1199,
+      "baseline_rate": 41.5
+    },
+    {
+      "year": 2009,
+      "nanahachi_vs_kachikoshi_bouts": 19,
+      "nanahachi_vs_kachikoshi_rate": 73.7,
+      "baseline_bouts": 1197,
+      "baseline_rate": 46.4
+    },
+    {
+      "year": 2010,
+      "nanahachi_vs_kachikoshi_bouts": 10,
+      "nanahachi_vs_kachikoshi_rate": 40.0,
+      "baseline_bouts": 1227,
+      "baseline_rate": 44.1
+    },
+    {
+      "year": 2011,
+      "nanahachi_vs_kachikoshi_bouts": 16,
+      "nanahachi_vs_kachikoshi_rate": 62.5,
+      "baseline_bouts": 1029,
+      "baseline_rate": 42.2
+    },
+    {
+      "year": 2012,
+      "nanahachi_vs_kachikoshi_bouts": 15,
+      "nanahachi_vs_kachikoshi_rate": 66.7,
+      "baseline_bouts": 1217,
+      "baseline_rate": 43.2
+    },
+    {
+      "year": 2013,
+      "nanahachi_vs_kachikoshi_bouts": 28,
+      "nanahachi_vs_kachikoshi_rate": 57.1,
+      "baseline_bouts": 1214,
+      "baseline_rate": 42.4
+    },
+    {
+      "year": 2014,
+      "nanahachi_vs_kachikoshi_bouts": 22,
+      "nanahachi_vs_kachikoshi_rate": 59.1,
+      "baseline_bouts": 1247,
+      "baseline_rate": 46.4
+    },
+    {
+      "year": 2015,
+      "nanahachi_vs_kachikoshi_bouts": 20,
+      "nanahachi_vs_kachikoshi_rate": 70.0,
+      "baseline_bouts": 1198,
+      "baseline_rate": 46.1
+    },
+    {
+      "year": 2016,
+      "nanahachi_vs_kachikoshi_bouts": 9,
+      "nanahachi_vs_kachikoshi_rate": 44.4,
+      "baseline_bouts": 1152,
+      "baseline_rate": 45.8
+    },
+    {
+      "year": 2017,
+      "nanahachi_vs_kachikoshi_bouts": 8,
+      "nanahachi_vs_kachikoshi_rate": 25.0,
+      "baseline_bouts": 1198,
+      "baseline_rate": 45.5
+    },
+    {
+      "year": 2018,
+      "nanahachi_vs_kachikoshi_bouts": 15,
+      "nanahachi_vs_kachikoshi_rate": 53.3,
+      "baseline_bouts": 1279,
+      "baseline_rate": 48.9
+    },
+    {
+      "year": 2019,
+      "nanahachi_vs_kachikoshi_bouts": 9,
+      "nanahachi_vs_kachikoshi_rate": 66.7,
+      "baseline_bouts": 1253,
+      "baseline_rate": 44.9
+    },
+    {
+      "year": 2020,
+      "nanahachi_vs_kachikoshi_bouts": 7,
+      "nanahachi_vs_kachikoshi_rate": 28.6,
+      "baseline_bouts": 1118,
+      "baseline_rate": 49.1
+    },
+    {
+      "year": 2021,
+      "nanahachi_vs_kachikoshi_bouts": 5,
+      "nanahachi_vs_kachikoshi_rate": 40.0,
+      "baseline_bouts": 1272,
+      "baseline_rate": 45.5
+    },
+    {
+      "year": 2022,
+      "nanahachi_vs_kachikoshi_bouts": 7,
+      "nanahachi_vs_kachikoshi_rate": 42.9,
+      "baseline_bouts": 1329,
+      "baseline_rate": 46.1
+    },
+    {
+      "year": 2023,
+      "nanahachi_vs_kachikoshi_bouts": 5,
+      "nanahachi_vs_kachikoshi_rate": 100.0,
+      "baseline_bouts": 1406,
+      "baseline_rate": 44.7
+    },
+    {
+      "year": 2024,
+      "nanahachi_vs_kachikoshi_bouts": 5,
+      "nanahachi_vs_kachikoshi_rate": 60.0,
+      "baseline_bouts": 1298,
+      "baseline_rate": 45.8
+    }
+  ],
+  "reciprocity": {
+    "total_favor_pairs": 190,
+    "mutual_pairs": 4,
+    "mutual_rate": 2.1,
+    "top_pairs": [
+      {
+        "rikishi_a": "琴光喜",
+        "rikishi_b": "魁皇",
+        "a_favors_b": 2,
+        "b_favors_a": 2,
+        "total": 4
+      },
+      {
+        "rikishi_a": "垣添",
+        "rikishi_b": "霜鳳",
+        "a_favors_b": 1,
+        "b_favors_a": 1,
+        "total": 2
+      },
+      {
+        "rikishi_a": "豊ノ島",
+        "rikishi_b": "北太樹",
+        "a_favors_b": 1,
+        "b_favors_a": 1,
+        "total": 2
+      },
+      {
+        "rikishi_a": "松鳳山",
+        "rikishi_b": "豊ノ島",
+        "a_favors_b": 1,
+        "b_favors_a": 1,
+        "total": 2
+      }
+    ]
+  }
+}

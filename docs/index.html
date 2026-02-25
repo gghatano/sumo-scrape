@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SUMO DATA LAB</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">SUMO DATA LAB</a>
+      <button class="nav-toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#kimarite">決まり手</a></li>
+        <li><a href="#trend">進化</a></li>
+        <li><a href="#rikishi">力士</a></li>
+        <li><a href="#yokozuna">横綱</a></li>
+        <li><a href="#upset">番狂わせ</a></li>
+        <li><a href="#nanahachi">7勝7敗</a></li>
+        <li><a href="#startrade">星の貸し借り</a></li>
+        <li><a href="#streaks">連勝</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Section 1: Hero -->
+  <section id="hero" class="section hero-section">
+    <div class="container">
+      <h1 class="hero-title">SUMO DATA LAB</h1>
+      <p class="hero-subtitle">24年間・369,000番の取組データから見える大相撲の世界</p>
+      <div class="stat-cards" id="stat-cards">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Kimarite Ranking -->
+  <section id="kimarite" class="section">
+    <div class="container">
+      <h2 class="section-title">決まり手ランキング</h2>
+      <p class="section-subtitle">幕内の決まり手 TOP15 ── どの技で勝負が決まるのか</p>
+      <div class="chart-container chart-tall">
+        <canvas id="kimariteChart"></canvas>
+      </div>
+      <div class="insight-box" id="kimarite-insight"></div>
+    </div>
+  </section>
+
+  <!-- Section 3: Kimarite Trend -->
+  <section id="trend" class="section">
+    <div class="container">
+      <h2 class="section-title">決まり手の進化</h2>
+      <p class="section-subtitle">25年間で相撲のスタイルはどう変わったか</p>
+      <div class="chart-container">
+        <canvas id="trendChart"></canvas>
+      </div>
+      <div class="insight-box" id="trend-insight"></div>
+    </div>
+  </section>
+
+  <!-- Section 4: Rikishi Ranking -->
+  <section id="rikishi" class="section">
+    <div class="container">
+      <h2 class="section-title">最強力士ランキング</h2>
+      <p class="section-subtitle">幕内通算勝利数で見る歴代の猛者たち（優勝決定戦を含む）</p>
+      <div class="rikishi-grid">
+        <div class="chart-container chart-tall">
+          <canvas id="rikishiChart"></canvas>
+        </div>
+        <div class="win-rate-table-wrapper">
+          <h3 class="table-title">勝率ランキング TOP15</h3>
+          <table class="win-rate-table" id="winRateTable">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>四股名</th>
+                <th>勝率</th>
+                <th>勝-敗</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="insight-box" id="rikishi-insight"></div>
+    </div>
+  </section>
+
+  <!-- Section 5: Yokozuna -->
+  <section id="yokozuna" class="section">
+    <div class="container">
+      <h2 class="section-title">横綱列伝</h2>
+      <p class="section-subtitle">横綱たちの場所別勝率推移 ── 全盛期と衰退が見える</p>
+      <div class="chart-container chart-wide">
+        <canvas id="yokozunaChart"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 6: Upset Index -->
+  <section id="upset" class="section">
+    <div class="container">
+      <h2 class="section-title">番狂わせ指数</h2>
+      <p class="section-subtitle">「荒れる場所」はいつだったか ── 波乱度の推移</p>
+      <div class="chart-container chart-wide">
+        <canvas id="upsetChart"></canvas>
+      </div>
+      <div class="insight-box" id="upset-insight"></div>
+    </div>
+  </section>
+
+  <!-- Section 8: Nanahachi (7-7 on Day 15) -->
+  <section id="nanahachi" class="section">
+    <div class="container">
+      <h2 class="section-title">7勝7敗の千秋楽</h2>
+      <p class="section-subtitle">勝ち越しをかけた一番 ── 勝率は本当に50%か？</p>
+      <div class="big-stat" id="nanahachi-big-stat">
+        <!-- Filled by JS -->
+      </div>
+      <p class="section-description" id="nanahachi-description"></p>
+      <div class="chart-container chart-tall">
+        <canvas id="nanahachi-bar-chart"></canvas>
+      </div>
+      <div class="chart-container chart-wide" style="margin-top: 24px;">
+        <canvas id="nanahachi-line-chart"></canvas>
+      </div>
+      <div class="insight-box" id="nanahachi-insight"></div>
+    </div>
+  </section>
+
+  <!-- Section 9: Star Trading Detection -->
+  <section id="startrade" class="section">
+    <div class="container">
+      <h2 class="section-title">「星の貸し借り」は実在するか？</h2>
+      <p class="section-subtitle">統計データから見る千秋楽の不自然なパターン</p>
+      <p class="section-description" id="startrade-description"></p>
+      <div class="chart-container chart-wide">
+        <canvas id="startrade-trend-chart"></canvas>
+      </div>
+      <h3 class="table-title" style="margin-top: 40px; margin-bottom: 16px;">成績別マトリクス ── 千秋楽の勝率</h3>
+      <div class="win-rate-table-wrapper">
+        <table class="heatmap-table" id="startrade-matrix">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <h3 class="table-title" style="margin-top: 40px; margin-bottom: 16px;">相互関係 ── 「貸し借り」ペア</h3>
+      <div class="reciprocity-cards" id="startrade-reciprocity">
+        <!-- Filled by JS -->
+      </div>
+      <div class="insight-box" id="startrade-insight"></div>
+    </div>
+  </section>
+
+  <!-- Section 10: Winning Streaks -->
+  <section id="streaks" class="section">
+    <div class="container">
+      <h2 class="section-title">大記録・連勝ストリーク</h2>
+      <p class="section-subtitle">止まらない勢い ── 歴代連勝記録 TOP10</p>
+      <div class="streak-cards" id="streak-cards">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>データソース: <a href="https://sumodb.sumogames.de/" target="_blank" rel="noopener">SumoDB (sumodb.sumogames.de)</a></p>
+      <p>対象期間: 2000年1月場所 〜 2024年11月場所</p>
+      <p class="footer-note">SUMO DATA LAB</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
