@@ -1,0 +1,1030 @@
+{
+  "rikishi": [
+    {
+      "shikona": "曙",
+      "rid": 1,
+      "data": [
+        {
+          "basho": "200001",
+          "wins": 11,
+          "losses": 4,
+          "win_rate": 73.3
+        },
+        {
+          "basho": "200003",
+          "wins": 12,
+          "losses": 3,
+          "win_rate": 80.0
+        },
+        {
+          "basho": "200005",
+          "wins": 13,
+          "losses": 2,
+          "win_rate": 86.7
+        },
+        {
+          "basho": "200007",
+          "wins": 13,
+          "losses": 2,
+          "win_rate": 86.7
+        },
+        {
+          "basho": "200009",
+          "wins": 13,
+          "losses": 2,
+          "win_rate": 86.7
+        },
+        {
+          "basho": "200011",
+          "wins": 14,
+          "losses": 1,
+          "win_rate": 93.3
+        }
+      ]
+    },
+    {
+      "shikona": "貴乃花",
+      "rid": 2,
+      "data": [
+        {
+          "basho": "200001",
+          "wins": 12,
+          "losses": 3,
+          "win_rate": 80.0
+        },
+        {
+          "basho": "200003",
+          "wins": 11,
+          "losses": 4,
+          "win_rate": 73.3
+        },
+        {
+          "basho": "200005",
+          "wins": 13,
+          "losses": 2,
+          "win_rate": 86.7
+        },
+        {
+          "basho": "200007",
+          "wins": 5,
+          "losses": 3,
+          "win_rate": 62.5
+        },
+        {
+          "basho": "200103",
+          "wins": 12,
+          "losses": 3,
+          "win_rate": 80.0
+        },
+        {
+          "basho": "200105",
+          "wins": 14,
+          "losses": 2,
+          "win_rate": 87.5
+        },
+        {
+          "basho": "200209",
+          "wins": 12,
+          "losses": 3,
+          "win_rate": 80.0
+        },
+        {
+          "basho": "200301",
+          "wins": 4,
+          "losses": 4,
+          "win_rate": 50.0
+        }
+      ]
+    },
+    {
+      "shikona": "若乃花",
+      "rid": 3,
+      "data": [
+        {
+          "basho": "200003",
+          "wins": 2,
+          "losses": 4,
+          "win_rate": 33.3
+        }
+      ]
+    },
+    {
+      "shikona": "武蔵丸",
+      "rid": 4,
+      "data": [
+        {
+          "basho": "200001",
+          "wins": 2,
+          "losses": 2,
+          "win_rate": 50.0
+        },
+        {
+          "basho": "200003",
+          "wins": 11,
+          "losses": 4,
+          "win_rate": 73.3
+        },
+        {
+          "basho": "200009",
+          "wins": 14,
+          "losses": 1,
+          "win_rate": 93.3
+        },
+        {
+          "basho": "200011",
+          "wins": 11,
+          "losses": 4,
+          "win_rate": 73.3
+        },
+        {
+          "basho": "200101",
+          "wins": 14,
+          "losses": 2,
+          "win_rate": 87.5
+        },
+        {
+          "basho": "200103",
+          "wins": 12,
+          "losses": 3,
+          "win_rate": 80.0
+        },
+        {
+          "basho": "200105",
+          "wins": 13,
+          "losses": 3,
+          "win_rate": 81.2
+        },
+        {
+          "basho": "200107",
+          "wins": 12,
+          "losses": 3,
+          "win_rate": 80.0
+        },
+        {
+          "basho": "200109",
+          "wins": 9,
+          "losses": 6,
+          "win_rate": 60.0
+        },
+        {
+          "basho": "200111",
+          "wins": 13,
+          "losses": 2,
+          "win_rate": 86.7
+        },
+        {
+          "basho": "200201",
+          "wins": 1,
+          "losses": 3,
+          "win_rate": 25.0
+        },
+        {
+          "basho": "200203",
+          "wins": 13,
+          "losses": 2,
+          "win_rate": 86.7
+        },
+        {
+          "basho": "200205",
+          "wins": 13,
+          "losses": 2,
+          "win_rate": 86.7
+        },
+        {
+          "basho": "200207",
+          "wins": 10,
+          "losses": 5,
+          "win_rate": 66.7
+        },
+        {
+          "basho": "200209",
+          "wins": 13,
+          "losses": 2,
+          "win_rate": 86.7
+        },
+        {
+          "basho": "200211",
+          "wins": 4,
+          "losses": 2,
+          "win_rate": 66.7
+        },
+        {
+          "basho": "200307",
+          "wins": 2,
+          "losses": 4,
+          "win_rate": 33.3
+        },
+        {
+          "basho": "200311",
+          "wins": 3,
+          "losses": 5,
+          "win_rate": 37.5
+        }
+      ]
+    },
+    {
+      "shikona": "朝青龍",
+      "rid": 878,
+      "data": [
+        {
+          "basho": "200303",
+          "wins": 10,
+          "losses": 5,
+          "win_rate": 66.7
+        },
+        {
+          "basho": "200305",
+          "wins": 13,
+          "losses": 2,
+          "win_rate": 86.7
+        },
+        {
+          "basho": "200307",
+          "wins": 5,
+          "losses": 5,
+          "win_rate": 50.0
+        },
+        {
+          "basho": "200309",
+          "wins": 13,
+          "losses": 2,
+          "win_rate": 86.7
+        },
+        {
+          "basho": "200311",
+          "wins": 12,
+          "losses": 3,
+          "win_rate": 80.0
+        },
+        {
+          "basho": "200707",
+          "wins": 14,
+          "losses": 1,
+          "win_rate": 93.3
+        },
+        {
+          "basho": "200801",
+          "wins": 13,
+          "losses": 2,
+          "win_rate": 86.7
+        },
+        {
+          "basho": "200803",
+          "wins": 13,
+          "losses": 2,
+          "win_rate": 86.7
+        },
+        {
+          "basho": "200805",
+          "wins": 11,
+          "losses": 4,
+          "win_rate": 73.3
+        },
+        {
+          "basho": "200807",
+          "wins": 3,
+          "losses": 3,
+          "win_rate": 50.0
+        },
+        {
+          "basho": "200809",
+          "wins": 5,
+          "losses": 5,
+          "win_rate": 50.0
+        },
+        {
+          "basho": "200901",
+          "wins": 15,
+          "losses": 1,
+          "win_rate": 93.8
+        },
+        {
+          "basho": "200903",
+          "wins": 11,
+          "losses": 4,
+          "win_rate": 73.3
+        },
+        {
+          "basho": "200905",
+          "wins": 12,
+          "losses": 3,
+          "win_rate": 80.0
+        },
+        {
+          "basho": "200907",
+          "wins": 10,
+          "losses": 5,
+          "win_rate": 66.7
+        },
+        {
+          "basho": "200909",
+          "wins": 15,
+          "losses": 1,
+          "win_rate": 93.8
+        },
+        {
+          "basho": "200911",
+          "wins": 11,
+          "losses": 4,
+          "win_rate": 73.3
+        },
+        {
+          "basho": "201001",
+          "wins": 13,
+          "losses": 2,
+          "win_rate": 86.7
+        }
+      ]
+    },
+    {
+      "shikona": "日馬富士",
+      "rid": 1111,
+      "data": [
+        {
+          "basho": "201211",
+          "wins": 9,
+          "losses": 6,
+          "win_rate": 60.0
+        },
+        {
+          "basho": "201301",
+          "wins": 15,
+          "losses": 0,
+          "win_rate": 100.0
+        },
+        {
+          "basho": "201303",
+          "wins": 9,
+          "losses": 6,
+          "win_rate": 60.0
+        },
+        {
+          "basho": "201305",
+          "wins": 11,
+          "losses": 4,
+          "win_rate": 73.3
+        },
+        {
+          "basho": "201307",
+          "wins": 10,
+          "losses": 5,
+          "win_rate": 66.7
+        },
+        {
+          "basho": "201309",
+          "wins": 10,
+          "losses": 5,
+          "win_rate": 66.7
+        },
+        {
+          "basho": "201311",
+          "wins": 14,
+          "losses": 1,
+          "win_rate": 93.3
+        },
+        {
+          "basho": "201403",
+          "wins": 12,
+          "losses": 3,
+          "win_rate": 80.0
+        },
+        {
+          "basho": "201405",
+          "wins": 11,
+          "losses": 4,
+          "win_rate": 73.3
+        },
+        {
+          "basho": "201407",
+          "wins": 10,
+          "losses": 5,
+          "win_rate": 66.7
+        },
+        {
+          "basho": "201503",
+          "wins": 10,
+          "losses": 5,
+          "win_rate": 66.7
+        },
+        {
+          "basho": "201505",
+          "wins": 11,
+          "losses": 4,
+          "win_rate": 73.3
+        },
+        {
+          "basho": "201507",
+          "wins": 1,
+          "losses": 1,
+          "win_rate": 50.0
+        },
+        {
+          "basho": "201601",
+          "wins": 12,
+          "losses": 3,
+          "win_rate": 80.0
+        },
+        {
+          "basho": "201603",
+          "wins": 9,
+          "losses": 6,
+          "win_rate": 60.0
+        },
+        {
+          "basho": "201609",
+          "wins": 12,
+          "losses": 3,
+          "win_rate": 80.0
+        },
+        {
+          "basho": "201611",
+          "wins": 11,
+          "losses": 4,
+          "win_rate": 73.3
+        },
+        {
+          "basho": "201701",
+          "wins": 4,
+          "losses": 3,
+          "win_rate": 57.1
+        },
+        {
+          "basho": "201703",
+          "wins": 10,
+          "losses": 5,
+          "win_rate": 66.7
+        },
+        {
+          "basho": "201705",
+          "wins": 11,
+          "losses": 4,
+          "win_rate": 73.3
+        },
+        {
+          "basho": "201707",
+          "wins": 11,
+          "losses": 4,
+          "win_rate": 73.3
+        },
+        {
+          "basho": "201709",
+          "wins": 11,
+          "losses": 4,
+          "win_rate": 73.3
+        },
+        {
+          "basho": "201711",
+          "wins": 0,
+          "losses": 3,
+          "win_rate": 0.0
+        }
+      ]
+    },
+    {
+      "shikona": "白鵬",
+      "rid": 1123,
+      "data": [
+        {
+          "basho": "200707",
+          "wins": 11,
+          "losses": 4,
+          "win_rate": 73.3
+        },
+        {
+          "basho": "200709",
+          "wins": 13,
+          "losses": 2,
+          "win_rate": 86.7
+        },
+        {
+          "basho": "200711",
+          "wins": 12,
+          "losses": 3,
+          "win_rate": 80.0
+        },
+        {
+          "basho": "200801",
+          "wins": 14,
+          "losses": 1,
+          "win_rate": 93.3
+        },
+        {
+          "basho": "200803",
+          "wins": 12,
+          "losses": 3,
+          "win_rate": 80.0
+        },
+        {
+          "basho": "200805",
+          "wins": 11,
+          "losses": 4,
+          "win_rate": 73.3
+        },
+        {
+          "basho": "200807",
+          "wins": 15,
+          "losses": 0,
+          "win_rate": 100.0
+        },
+        {
+          "basho": "200809",
+          "wins": 14,
+          "losses": 1,
+          "win_rate": 93.3
+        },
+        {
+          "basho": "200811",
+          "wins": 14,
+          "losses": 2,
+          "win_rate": 87.5
+        },
+        {
+          "basho": "200901",
+          "wins": 14,
+          "losses": 2,
+          "win_rate": 87.5
+        },
+        {
+          "basho": "200903",
+          "wins": 15,
+          "losses": 0,
+          "win_rate": 100.0
+        },
+        {
+          "basho": "200905",
+          "wins": 14,
+          "losses": 2,
+          "win_rate": 87.5
+        },
+        {
+          "basho": "200907",
+          "wins": 14,
+          "losses": 1,
+          "win_rate": 93.3
+        },
+        {
+          "basho": "200909",
+          "wins": 14,
+          "losses": 2,
+          "win_rate": 87.5
+        },
+        {
+          "basho": "200911",
+          "wins": 15,
+          "losses": 0,
+          "win_rate": 100.0
+        },
+        {
+          "basho": "201001",
+          "wins": 12,
+          "losses": 3,
+          "win_rate": 80.0
+        },
+        {
+          "basho": "201211",
+          "wins": 14,
+          "losses": 1,
+          "win_rate": 93.3
+        },
+        {
+          "basho": "201301",
+          "wins": 12,
+          "losses": 3,
+          "win_rate": 80.0
+        },
+        {
+          "basho": "201303",
+          "wins": 15,
+          "losses": 0,
+          "win_rate": 100.0
+        },
+        {
+          "basho": "201305",
+          "wins": 15,
+          "losses": 0,
+          "win_rate": 100.0
+        },
+        {
+          "basho": "201307",
+          "wins": 13,
+          "losses": 2,
+          "win_rate": 86.7
+        },
+        {
+          "basho": "201309",
+          "wins": 14,
+          "losses": 1,
+          "win_rate": 93.3
+        },
+        {
+          "basho": "201311",
+          "wins": 13,
+          "losses": 2,
+          "win_rate": 86.7
+        },
+        {
+          "basho": "201401",
+          "wins": 15,
+          "losses": 1,
+          "win_rate": 93.8
+        },
+        {
+          "basho": "201403",
+          "wins": 12,
+          "losses": 3,
+          "win_rate": 80.0
+        },
+        {
+          "basho": "201405",
+          "wins": 14,
+          "losses": 1,
+          "win_rate": 93.3
+        },
+        {
+          "basho": "201407",
+          "wins": 13,
+          "losses": 2,
+          "win_rate": 86.7
+        },
+        {
+          "basho": "201409",
+          "wins": 14,
+          "losses": 1,
+          "win_rate": 93.3
+        },
+        {
+          "basho": "201411",
+          "wins": 14,
+          "losses": 1,
+          "win_rate": 93.3
+        },
+        {
+          "basho": "201501",
+          "wins": 15,
+          "losses": 0,
+          "win_rate": 100.0
+        },
+        {
+          "basho": "201503",
+          "wins": 14,
+          "losses": 1,
+          "win_rate": 93.3
+        },
+        {
+          "basho": "201505",
+          "wins": 11,
+          "losses": 4,
+          "win_rate": 73.3
+        },
+        {
+          "basho": "201507",
+          "wins": 14,
+          "losses": 1,
+          "win_rate": 93.3
+        },
+        {
+          "basho": "201509",
+          "wins": 0,
+          "losses": 3,
+          "win_rate": 0.0
+        },
+        {
+          "basho": "201511",
+          "wins": 12,
+          "losses": 3,
+          "win_rate": 80.0
+        },
+        {
+          "basho": "201601",
+          "wins": 12,
+          "losses": 3,
+          "win_rate": 80.0
+        },
+        {
+          "basho": "201603",
+          "wins": 14,
+          "losses": 1,
+          "win_rate": 93.3
+        },
+        {
+          "basho": "201605",
+          "wins": 15,
+          "losses": 0,
+          "win_rate": 100.0
+        },
+        {
+          "basho": "201607",
+          "wins": 10,
+          "losses": 5,
+          "win_rate": 66.7
+        },
+        {
+          "basho": "201703",
+          "wins": 2,
+          "losses": 3,
+          "win_rate": 40.0
+        },
+        {
+          "basho": "201705",
+          "wins": 15,
+          "losses": 0,
+          "win_rate": 100.0
+        },
+        {
+          "basho": "201707",
+          "wins": 14,
+          "losses": 1,
+          "win_rate": 93.3
+        },
+        {
+          "basho": "201711",
+          "wins": 14,
+          "losses": 1,
+          "win_rate": 93.3
+        },
+        {
+          "basho": "201801",
+          "wins": 2,
+          "losses": 3,
+          "win_rate": 40.0
+        },
+        {
+          "basho": "201805",
+          "wins": 11,
+          "losses": 4,
+          "win_rate": 73.3
+        },
+        {
+          "basho": "201807",
+          "wins": 3,
+          "losses": 1,
+          "win_rate": 75.0
+        },
+        {
+          "basho": "201809",
+          "wins": 15,
+          "losses": 0,
+          "win_rate": 100.0
+        },
+        {
+          "basho": "201901",
+          "wins": 10,
+          "losses": 4,
+          "win_rate": 71.4
+        },
+        {
+          "basho": "201903",
+          "wins": 15,
+          "losses": 0,
+          "win_rate": 100.0
+        },
+        {
+          "basho": "201907",
+          "wins": 12,
+          "losses": 3,
+          "win_rate": 80.0
+        },
+        {
+          "basho": "201909",
+          "wins": 0,
+          "losses": 2,
+          "win_rate": 0.0
+        },
+        {
+          "basho": "201911",
+          "wins": 14,
+          "losses": 1,
+          "win_rate": 93.3
+        },
+        {
+          "basho": "202001",
+          "wins": 1,
+          "losses": 3,
+          "win_rate": 25.0
+        },
+        {
+          "basho": "202003",
+          "wins": 13,
+          "losses": 2,
+          "win_rate": 86.7
+        },
+        {
+          "basho": "202007",
+          "wins": 10,
+          "losses": 3,
+          "win_rate": 76.9
+        },
+        {
+          "basho": "202103",
+          "wins": 2,
+          "losses": 1,
+          "win_rate": 66.7
+        }
+      ]
+    },
+    {
+      "shikona": "鶴竜",
+      "rid": 1219,
+      "data": [
+        {
+          "basho": "201409",
+          "wins": 11,
+          "losses": 4,
+          "win_rate": 73.3
+        },
+        {
+          "basho": "201411",
+          "wins": 12,
+          "losses": 3,
+          "win_rate": 80.0
+        },
+        {
+          "basho": "201501",
+          "wins": 10,
+          "losses": 5,
+          "win_rate": 66.7
+        },
+        {
+          "basho": "201509",
+          "wins": 13,
+          "losses": 3,
+          "win_rate": 81.2
+        },
+        {
+          "basho": "201511",
+          "wins": 9,
+          "losses": 6,
+          "win_rate": 60.0
+        },
+        {
+          "basho": "201605",
+          "wins": 11,
+          "losses": 4,
+          "win_rate": 73.3
+        },
+        {
+          "basho": "201607",
+          "wins": 2,
+          "losses": 2,
+          "win_rate": 50.0
+        },
+        {
+          "basho": "201611",
+          "wins": 14,
+          "losses": 1,
+          "win_rate": 93.3
+        },
+        {
+          "basho": "201701",
+          "wins": 5,
+          "losses": 6,
+          "win_rate": 45.5
+        },
+        {
+          "basho": "201703",
+          "wins": 10,
+          "losses": 5,
+          "win_rate": 66.7
+        },
+        {
+          "basho": "201705",
+          "wins": 1,
+          "losses": 4,
+          "win_rate": 20.0
+        },
+        {
+          "basho": "201707",
+          "wins": 2,
+          "losses": 2,
+          "win_rate": 50.0
+        },
+        {
+          "basho": "201803",
+          "wins": 13,
+          "losses": 2,
+          "win_rate": 86.7
+        },
+        {
+          "basho": "201805",
+          "wins": 14,
+          "losses": 1,
+          "win_rate": 93.3
+        },
+        {
+          "basho": "201807",
+          "wins": 3,
+          "losses": 3,
+          "win_rate": 50.0
+        },
+        {
+          "basho": "201809",
+          "wins": 10,
+          "losses": 5,
+          "win_rate": 66.7
+        },
+        {
+          "basho": "201903",
+          "wins": 10,
+          "losses": 5,
+          "win_rate": 66.7
+        },
+        {
+          "basho": "201905",
+          "wins": 11,
+          "losses": 4,
+          "win_rate": 73.3
+        },
+        {
+          "basho": "201907",
+          "wins": 14,
+          "losses": 1,
+          "win_rate": 93.3
+        },
+        {
+          "basho": "201909",
+          "wins": 4,
+          "losses": 4,
+          "win_rate": 50.0
+        },
+        {
+          "basho": "201911",
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0.0
+        },
+        {
+          "basho": "202001",
+          "wins": 1,
+          "losses": 4,
+          "win_rate": 20.0
+        },
+        {
+          "basho": "202003",
+          "wins": 12,
+          "losses": 3,
+          "win_rate": 80.0
+        },
+        {
+          "basho": "202007",
+          "wins": 0,
+          "losses": 2,
+          "win_rate": 0.0
+        }
+      ]
+    },
+    {
+      "shikona": "稀勢の里",
+      "rid": 1235,
+      "data": [
+        {
+          "basho": "201703",
+          "wins": 14,
+          "losses": 2,
+          "win_rate": 87.5
+        },
+        {
+          "basho": "201705",
+          "wins": 6,
+          "losses": 5,
+          "win_rate": 54.5
+        },
+        {
+          "basho": "201707",
+          "wins": 2,
+          "losses": 4,
+          "win_rate": 33.3
+        },
+        {
+          "basho": "201711",
+          "wins": 4,
+          "losses": 6,
+          "win_rate": 40.0
+        },
+        {
+          "basho": "201801",
+          "wins": 1,
+          "losses": 5,
+          "win_rate": 16.7
+        },
+        {
+          "basho": "201901",
+          "wins": 0,
+          "losses": 4,
+          "win_rate": 0.0
+        }
+      ]
+    },
+    {
+      "shikona": "照ノ富士",
+      "rid": 11927,
+      "data": [
+        {
+          "basho": "202109",
+          "wins": 13,
+          "losses": 2,
+          "win_rate": 86.7
+        }
+      ]
+    }
+  ]
+}
